@@ -36,4 +36,5 @@ jobs:
           coverageCommand: coverage xml
           coverageLocations: ${{github.workspace}}/coverage.xml:coverage.py
         env:
-          CC_TEST_REPORTER_ID: b963243584f57859c4b4b397b094239e9c6de058c7f1b65e673796b55af13844
+          # Code Climates ID`
+          CC_TEST_REPORTER_ID: 5a81776a424c08cf8231b381338b690e323f65e94fca24a8cfc3a4df7285205a
